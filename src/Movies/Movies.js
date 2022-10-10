@@ -111,7 +111,7 @@ const Movies = () => {
         <div className='container mt-4 mb-5'>
 
 
-            <div className='d-flex justify-content-start align-items-center my-5'>
+            <div className='d-flex justify-content-start align-items-center my-5 '>
 
             
 
@@ -156,9 +156,9 @@ const Movies = () => {
 
 
 
-            <div style={{ backgroundColor: '#989898' }} className=' ps-2 py-1 w-50 mx-auto rounded-pill '>
+            <div style={{ backgroundColor: '#989898' }} className=' ps-2 py-1 w-50 mx-auto sm-mx-auto rounded-pill  '>
                 <MagnifyingGlassIcon style={{ heigth: '25px', width: '25px', color: 'white' }} className="" />
-                <input onChange={(e) => setData(e.target.value)} style={{ backgroundColor: '#989898', outline: 'none', color: 'white' }} className='border border-0 ' type="text" />
+                <input onChange={(e) => setData(e.target.value)} style={{ backgroundColor: '#989898', outline: 'none', color: 'white' }} className='border border-0   ' size={2} type="text" />
 
             </div>
 
@@ -176,7 +176,7 @@ const Movies = () => {
                 }
             </div>
 
-            <div className="row g-5 mt-5 mb-5">
+            <div className="row g-5 mt-5 mb-5 sm-mb-5">
                 {/* {
                   popular &&  movies.map(movie=><Movie key={movie.id} movie={movie}></Movie>)
                 } */}

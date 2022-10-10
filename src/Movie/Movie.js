@@ -17,7 +17,7 @@ const Movie = ({ movie }) => {
 
 
     return (
-        <div className=' col-lg-3 col-12'>
+        <div className=' col-lg-3 col-12  '>
             <div onClick={()=>showDetails(movie.id)} style={{width:'19em', height:'450px',borderRadius:'10px'}} class="card  movie-card  " >
             <img style={{borderRadius:'10px'}} src={imgUrl}
 
